@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PizzApp" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3UE-PC-Plp">
+                                <rect key="frame" x="86" y="95" width="214" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="214" id="L6p-sv-gQN"/>
+                                    <constraint firstAttribute="height" constant="71" id="qP4-MG-Hfm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="45"/>
+                                <color key="textColor" red="0.49019607843137253" green="0.47843137254901963" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido!!!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mV-bl-goD">
+                                <rect key="frame" x="172" y="157" width="128" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="1WC-ZO-ICW"/>
+                                    <constraint firstAttribute="height" constant="36" id="o1E-DU-Ldq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PrepararPizza" translatesAutoresizingMaskIntoConstraints="NO" id="Ibb-Cd-dyp">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3UE-PC-Plp" firstAttribute="trailing" secondItem="3mV-bl-goD" secondAttribute="trailing" id="16r-6i-z2i"/>
+                            <constraint firstItem="Ibb-Cd-dyp" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="1av-Af-1zZ"/>
+                            <constraint firstItem="3UE-PC-Plp" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="75" id="2vm-th-21z"/>
+                            <constraint firstItem="3UE-PC-Plp" firstAttribute="leading" secondItem="Ibb-Cd-dyp" secondAttribute="trailing" constant="-234" id="NX6-tX-gx7"/>
+                            <constraint firstItem="3mV-bl-goD" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="137" id="Q09-1d-pjq"/>
+                            <constraint firstItem="Ibb-Cd-dyp" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Xcq-iY-kBI"/>
+                            <constraint firstItem="Ibb-Cd-dyp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="sEX-Y9-rFI"/>
+                            <constraint firstItem="Ibb-Cd-dyp" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="v4O-h6-xjC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="355"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="PrepararPizza" width="200" height="233"/>
+    </resources>
+</document>
